@@ -1,18 +1,18 @@
 class PoetryBin < Formula
     desc "Python package management tool (binary build)"
     homepage "github.com/gi0baro/poetry-bin"
-    version "1.1.4"
+    version "1.1.5"
     revision 1
     license "MIT"
     bottle :unneeded
 
     if OS.mac?
-        url "https://github.com/gi0baro/poetry-bin/releases/download/1.1.4-1/poetry-bin-1.1.4-1-x86_64-apple-darwin.tar.gz"
-        sha256 "b370161c215109a64c44b4dadf7ddac7fc818c40f65e81a730bbed897f6c7ef3"
+        url "https://github.com/gi0baro/poetry-bin/releases/download/1.1.5-1/poetry-bin-1.1.5-1-x86_64-apple-darwin.tar.gz"
+        sha256 "3cd2c61fffdecf104151654477b1a8cb9b98518994411112966af9aa77d37fac"
     end
     if OS.linux? && Hardware::CPU.intel?
-        url "https://github.com/gi0baro/poetry-bin/releases/download/1.1.4-1/poetry-bin-1.1.4-1-x86_64-unknown-linux-gnu.tar.gz"
-        sha256 "a6a99a17b0ed984687180e804289db7f8d60795ee417c9dbb96d622f75a0d2a3"
+        url "https://github.com/gi0baro/poetry-bin/releases/download/1.1.5-1/poetry-bin-1.1.5-1-x86_64-unknown-linux-gnu.tar.gz"
+        sha256 "645478c82e6f40f3ea044447e41826bd9aec08e45239febe2b685649758a4ff8"
     end
 
     def install
